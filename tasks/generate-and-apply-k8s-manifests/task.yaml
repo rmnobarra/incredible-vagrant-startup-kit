@@ -1,11 +1,5 @@
 name: generate-and-apply-k8s-manifests
 description: Convert docker compose file to kubernetes manifests and run them
-inputs:
-- label: Commit message
-  type: text
-  default: example
-  name: message
-  required: 'true'
 supported-os:
 - windows
 - linux
