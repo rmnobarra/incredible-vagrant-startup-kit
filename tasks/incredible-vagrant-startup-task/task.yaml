@@ -1,0 +1,13 @@
+name: incredible-vagrant-startup-task
+description: A very ultra cool task for startup development environment using vagrant
+supported-os:
+- windows
+- linux
+- mac
+requirements-check:
+  dependency-example:
+    check-command: vagrant version
+    info: vagrant is not installed
+command: 
+  linux:
+    vagrant up
